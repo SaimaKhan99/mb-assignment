@@ -1,0 +1,564 @@
+<testsuites id="" name="" tests="42" failures="14" skipped="0" errors="0" time="165.630157">
+<testsuite name="ui/auth/forgot-password.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="3" failures="0" skipped="0" time="15.128" errors="0">
+<testcase name="Forgot Password › @smoke is reachable from login and can navigate back" classname="ui/auth/forgot-password.spec.ts" time="7.183">
+</testcase>
+<testcase name="Forgot Password › enables reset initiation only after a valid email is entered" classname="ui/auth/forgot-password.spec.ts" time="2.332">
+</testcase>
+<testcase name="Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge" classname="ui/auth/forgot-password.spec.ts" time="5.613">
+</testcase>
+</testsuite>
+<testsuite name="ui/auth/login.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="3" failures="0" skipped="0" time="10.329" errors="0">
+<testcase name="Login › @smoke exposes the public sign-in shell" classname="ui/auth/login.spec.ts" time="2.35">
+</testcase>
+<testcase name="Login › enables submission only after the required credentials are provided" classname="ui/auth/login.spec.ts" time="3.225">
+</testcase>
+<testcase name="Login › @smoke blocks login behind the CAPTCHA challenge" classname="ui/auth/login.spec.ts" time="4.754">
+</testcase>
+</testsuite>
+<testsuite name="ui/auth/register.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="3" failures="0" skipped="0" time="11.586" errors="0">
+<testcase name="Registration › @smoke shows the first-step registration form and return path to login" classname="ui/auth/register.spec.ts" time="3.767">
+</testcase>
+<testcase name="Registration › keeps the Next action disabled until valid credentials and terms acceptance are present" classname="ui/auth/register.spec.ts" time="3.416">
+</testcase>
+<testcase name="Registration › @smoke gates registration continuation behind the CAPTCHA challenge" classname="ui/auth/register.spec.ts" time="4.403">
+</testcase>
+</testsuite>
+<testsuite name="ui/navigation/not-found.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.879" errors="0">
+<testcase name="Public fallback route › @smoke keeps the 404 shell functional" classname="ui/navigation/not-found.spec.ts" time="1.879">
+</testcase>
+</testsuite>
+<testsuite name="ui/navigation/protected-routes.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="4" failures="0" skipped="0" time="8.009" errors="0">
+<testcase name="Protected routes › redirects / to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="1.882">
+</testcase>
+<testcase name="Protected routes › redirects /explore to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="2.029">
+</testcase>
+<testcase name="Protected routes › redirects /wallet to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="2.017">
+</testcase>
+<testcase name="Protected routes › redirects /price/LTC to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="2.081">
+</testcase>
+</testsuite>
+<testsuite name="ui/auth/forgot-password.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="3" failures="0" skipped="0" time="61.114" errors="0">
+<testcase name="Forgot Password › @smoke is reachable from login and can navigate back" classname="ui/auth/forgot-password.spec.ts" time="5.059">
+</testcase>
+<testcase name="Forgot Password › enables reset initiation only after a valid email is entered" classname="ui/auth/forgot-password.spec.ts" time="52.016">
+</testcase>
+<testcase name="Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge" classname="ui/auth/forgot-password.spec.ts" time="4.039">
+</testcase>
+</testsuite>
+<testsuite name="ui/auth/login.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="3" failures="0" skipped="0" time="8.168" errors="0">
+<testcase name="Login › @smoke exposes the public sign-in shell" classname="ui/auth/login.spec.ts" time="2.042">
+</testcase>
+<testcase name="Login › enables submission only after the required credentials are provided" classname="ui/auth/login.spec.ts" time="1.985">
+</testcase>
+<testcase name="Login › @smoke blocks login behind the CAPTCHA challenge" classname="ui/auth/login.spec.ts" time="4.141">
+</testcase>
+</testsuite>
+<testsuite name="ui/auth/register.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="3" failures="0" skipped="0" time="14.165" errors="0">
+<testcase name="Registration › @smoke shows the first-step registration form and return path to login" classname="ui/auth/register.spec.ts" time="3.817">
+</testcase>
+<testcase name="Registration › keeps the Next action disabled until valid credentials and terms acceptance are present" classname="ui/auth/register.spec.ts" time="4.316">
+</testcase>
+<testcase name="Registration › @smoke gates registration continuation behind the CAPTCHA challenge" classname="ui/auth/register.spec.ts" time="6.032">
+</testcase>
+</testsuite>
+<testsuite name="ui/navigation/not-found.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="1" failures="0" skipped="0" time="1.749" errors="0">
+<testcase name="Public fallback route › @smoke keeps the 404 shell functional" classname="ui/navigation/not-found.spec.ts" time="1.749">
+</testcase>
+</testsuite>
+<testsuite name="ui/navigation/protected-routes.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="4" failures="0" skipped="0" time="7.914" errors="0">
+<testcase name="Protected routes › redirects / to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="1.823">
+</testcase>
+<testcase name="Protected routes › redirects /explore to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="2.138">
+</testcase>
+<testcase name="Protected routes › redirects /wallet to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="1.96">
+</testcase>
+<testcase name="Protected routes › redirects /price/LTC to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="1.993">
+</testcase>
+</testsuite>
+<testsuite name="ui/auth/forgot-password.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="3" failures="3" skipped="0" time="0.012" errors="0">
+<testcase name="Forgot Password › @smoke is reachable from login and can navigate back" classname="ui/auth/forgot-password.spec.ts" time="0.004">
+<failure message="forgot-password.spec.ts:4:7 @smoke is reachable from login and can navigate back" type="FAILURE">
+<![CDATA[  [webkit] › ui/auth/forgot-password.spec.ts:4:7 › Forgot Password › @smoke is reachable from login and can navigate back 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Forgot Password › enables reset initiation only after a valid email is entered" classname="ui/auth/forgot-password.spec.ts" time="0.004">
+<failure message="forgot-password.spec.ts:18:7 enables reset initiation only after a valid email is entered" type="FAILURE">
+<![CDATA[  [webkit] › ui/auth/forgot-password.spec.ts:18:7 › Forgot Password › enables reset initiation only after a valid email is entered 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge" classname="ui/auth/forgot-password.spec.ts" time="0.004">
+<failure message="forgot-password.spec.ts:29:7 @smoke blocks password recovery behind the CAPTCHA challenge" type="FAILURE">
+<![CDATA[  [webkit] › ui/auth/forgot-password.spec.ts:29:7 › Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="ui/auth/login.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="3" failures="3" skipped="0" time="0.015" errors="0">
+<testcase name="Login › @smoke exposes the public sign-in shell" classname="ui/auth/login.spec.ts" time="0.005">
+<failure message="login.spec.ts:4:7 @smoke exposes the public sign-in shell" type="FAILURE">
+<![CDATA[  [webkit] › ui/auth/login.spec.ts:4:7 › Login › @smoke exposes the public sign-in shell ───────────
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Login › enables submission only after the required credentials are provided" classname="ui/auth/login.spec.ts" time="0.007">
+<failure message="login.spec.ts:11:7 enables submission only after the required credentials are provided" type="FAILURE">
+<![CDATA[  [webkit] › ui/auth/login.spec.ts:11:7 › Login › enables submission only after the required credentials are provided 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Login › @smoke blocks login behind the CAPTCHA challenge" classname="ui/auth/login.spec.ts" time="0.003">
+<failure message="login.spec.ts:26:7 @smoke blocks login behind the CAPTCHA challenge" type="FAILURE">
+<![CDATA[  [webkit] › ui/auth/login.spec.ts:26:7 › Login › @smoke blocks login behind the CAPTCHA challenge ─
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="ui/auth/register.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="3" failures="3" skipped="0" time="0.012" errors="0">
+<testcase name="Registration › @smoke shows the first-step registration form and return path to login" classname="ui/auth/register.spec.ts" time="0.004">
+<failure message="register.spec.ts:5:7 @smoke shows the first-step registration form and return path to login" type="FAILURE">
+<![CDATA[  [webkit] › ui/auth/register.spec.ts:5:7 › Registration › @smoke shows the first-step registration form and return path to login 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Registration › keeps the Next action disabled until valid credentials and terms acceptance are present" classname="ui/auth/register.spec.ts" time="0.004">
+<failure message="register.spec.ts:16:7 keeps the Next action disabled until valid credentials and terms acceptance are present" type="FAILURE">
+<![CDATA[  [webkit] › ui/auth/register.spec.ts:16:7 › Registration › keeps the Next action disabled until valid credentials and terms acceptance are present 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Registration › @smoke gates registration continuation behind the CAPTCHA challenge" classname="ui/auth/register.spec.ts" time="0.004">
+<failure message="register.spec.ts:34:7 @smoke gates registration continuation behind the CAPTCHA challenge" type="FAILURE">
+<![CDATA[  [webkit] › ui/auth/register.spec.ts:34:7 › Registration › @smoke gates registration continuation behind the CAPTCHA challenge 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="ui/navigation/not-found.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="1" failures="1" skipped="0" time="0.004" errors="0">
+<testcase name="Public fallback route › @smoke keeps the 404 shell functional" classname="ui/navigation/not-found.spec.ts" time="0.004">
+<failure message="not-found.spec.ts:4:7 @smoke keeps the 404 shell functional" type="FAILURE">
+<![CDATA[  [webkit] › ui/navigation/not-found.spec.ts:4:7 › Public fallback route › @smoke keeps the 404 shell functional 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="ui/navigation/protected-routes.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="4" failures="4" skipped="0" time="0.026" errors="0">
+<testcase name="Protected routes › redirects / to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.004">
+<failure message="protected-routes.spec.ts:12:9 redirects / to login with the original target preserved" type="FAILURE">
+<![CDATA[  [webkit] › ui/navigation/protected-routes.spec.ts:12:9 › Protected routes › redirects / to login with the original target preserved 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Protected routes › redirects /explore to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.005">
+<failure message="protected-routes.spec.ts:12:9 redirects /explore to login with the original target preserved" type="FAILURE">
+<![CDATA[  [webkit] › ui/navigation/protected-routes.spec.ts:12:9 › Protected routes › redirects /explore to login with the original target preserved 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Protected routes › redirects /wallet to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.007">
+<failure message="protected-routes.spec.ts:12:9 redirects /wallet to login with the original target preserved" type="FAILURE">
+<![CDATA[  [webkit] › ui/navigation/protected-routes.spec.ts:12:9 › Protected routes › redirects /wallet to login with the original target preserved 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Protected routes › redirects /price/LTC to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.01">
+<failure message="protected-routes.spec.ts:12:9 redirects /price/LTC to login with the original target preserved" type="FAILURE">
+<![CDATA[  [webkit] › ui/navigation/protected-routes.spec.ts:12:9 › Protected routes › redirects /price/LTC to login with the original target preserved 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     libxslt.so.1                                     ║
+    ║     libevent-2.1.so.7                                ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.13                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libsecret-1.so.0                                 ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
