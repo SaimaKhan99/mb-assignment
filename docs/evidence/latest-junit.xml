@@ -1,82 +1,90 @@
-<testsuites id="" name="" tests="42" failures="14" skipped="0" errors="0" time="165.630157">
-<testsuite name="ui/auth/forgot-password.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="3" failures="0" skipped="0" time="15.128" errors="0">
-<testcase name="Forgot Password › @smoke is reachable from login and can navigate back" classname="ui/auth/forgot-password.spec.ts" time="7.183">
+<testsuites id="" name="" tests="42" failures="15" skipped="0" errors="0" time="519.629829">
+<testsuite name="ui/auth/forgot-password.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="chromium" tests="3" failures="0" skipped="0" time="42.615" errors="0">
+<testcase name="Forgot Password › @smoke is reachable from login and can navigate back" classname="ui/auth/forgot-password.spec.ts" time="18.739">
 </testcase>
-<testcase name="Forgot Password › enables reset initiation only after a valid email is entered" classname="ui/auth/forgot-password.spec.ts" time="2.332">
+<testcase name="Forgot Password › enables reset initiation only after a valid email is entered" classname="ui/auth/forgot-password.spec.ts" time="13.134">
 </testcase>
-<testcase name="Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge" classname="ui/auth/forgot-password.spec.ts" time="5.613">
-</testcase>
-</testsuite>
-<testsuite name="ui/auth/login.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="3" failures="0" skipped="0" time="10.329" errors="0">
-<testcase name="Login › @smoke exposes the public sign-in shell" classname="ui/auth/login.spec.ts" time="2.35">
-</testcase>
-<testcase name="Login › enables submission only after the required credentials are provided" classname="ui/auth/login.spec.ts" time="3.225">
-</testcase>
-<testcase name="Login › @smoke blocks login behind the CAPTCHA challenge" classname="ui/auth/login.spec.ts" time="4.754">
+<testcase name="Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge" classname="ui/auth/forgot-password.spec.ts" time="10.742">
 </testcase>
 </testsuite>
-<testsuite name="ui/auth/register.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="3" failures="0" skipped="0" time="11.586" errors="0">
-<testcase name="Registration › @smoke shows the first-step registration form and return path to login" classname="ui/auth/register.spec.ts" time="3.767">
+<testsuite name="ui/auth/login.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="chromium" tests="3" failures="0" skipped="0" time="37.384" errors="0">
+<testcase name="Login › @smoke exposes the public sign-in shell" classname="ui/auth/login.spec.ts" time="12.136">
 </testcase>
-<testcase name="Registration › keeps the Next action disabled until valid credentials and terms acceptance are present" classname="ui/auth/register.spec.ts" time="3.416">
+<testcase name="Login › enables submission only after the required credentials are provided" classname="ui/auth/login.spec.ts" time="12.843">
 </testcase>
-<testcase name="Registration › @smoke gates registration continuation behind the CAPTCHA challenge" classname="ui/auth/register.spec.ts" time="4.403">
-</testcase>
-</testsuite>
-<testsuite name="ui/navigation/not-found.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.879" errors="0">
-<testcase name="Public fallback route › @smoke keeps the 404 shell functional" classname="ui/navigation/not-found.spec.ts" time="1.879">
+<testcase name="Login › @smoke blocks login behind the CAPTCHA challenge" classname="ui/auth/login.spec.ts" time="12.405">
 </testcase>
 </testsuite>
-<testsuite name="ui/navigation/protected-routes.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="chromium" tests="4" failures="0" skipped="0" time="8.009" errors="0">
-<testcase name="Protected routes › redirects / to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="1.882">
+<testsuite name="ui/auth/register.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="chromium" tests="3" failures="0" skipped="0" time="47.987" errors="0">
+<testcase name="Registration › @smoke shows the first-step registration form and return path to login" classname="ui/auth/register.spec.ts" time="18.962">
 </testcase>
-<testcase name="Protected routes › redirects /explore to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="2.029">
+<testcase name="Registration › keeps the Next action disabled until valid credentials and terms acceptance are present" classname="ui/auth/register.spec.ts" time="12.559">
 </testcase>
-<testcase name="Protected routes › redirects /wallet to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="2.017">
-</testcase>
-<testcase name="Protected routes › redirects /price/LTC to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="2.081">
+<testcase name="Registration › @smoke gates registration continuation behind the CAPTCHA challenge" classname="ui/auth/register.spec.ts" time="16.466">
 </testcase>
 </testsuite>
-<testsuite name="ui/auth/forgot-password.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="3" failures="0" skipped="0" time="61.114" errors="0">
-<testcase name="Forgot Password › @smoke is reachable from login and can navigate back" classname="ui/auth/forgot-password.spec.ts" time="5.059">
-</testcase>
-<testcase name="Forgot Password › enables reset initiation only after a valid email is entered" classname="ui/auth/forgot-password.spec.ts" time="52.016">
-</testcase>
-<testcase name="Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge" classname="ui/auth/forgot-password.spec.ts" time="4.039">
+<testsuite name="ui/navigation/not-found.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.065" errors="0">
+<testcase name="Public fallback route › @smoke keeps the 404 shell functional" classname="ui/navigation/not-found.spec.ts" time="10.065">
 </testcase>
 </testsuite>
-<testsuite name="ui/auth/login.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="3" failures="0" skipped="0" time="8.168" errors="0">
-<testcase name="Login › @smoke exposes the public sign-in shell" classname="ui/auth/login.spec.ts" time="2.042">
+<testsuite name="ui/navigation/protected-routes.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="chromium" tests="4" failures="0" skipped="0" time="25.952" errors="0">
+<testcase name="Protected routes › redirects / to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="8.092">
 </testcase>
-<testcase name="Login › enables submission only after the required credentials are provided" classname="ui/auth/login.spec.ts" time="1.985">
+<testcase name="Protected routes › redirects /explore to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="6.068">
 </testcase>
-<testcase name="Login › @smoke blocks login behind the CAPTCHA challenge" classname="ui/auth/login.spec.ts" time="4.141">
+<testcase name="Protected routes › redirects /wallet to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="3.896">
 </testcase>
-</testsuite>
-<testsuite name="ui/auth/register.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="3" failures="0" skipped="0" time="14.165" errors="0">
-<testcase name="Registration › @smoke shows the first-step registration form and return path to login" classname="ui/auth/register.spec.ts" time="3.817">
-</testcase>
-<testcase name="Registration › keeps the Next action disabled until valid credentials and terms acceptance are present" classname="ui/auth/register.spec.ts" time="4.316">
-</testcase>
-<testcase name="Registration › @smoke gates registration continuation behind the CAPTCHA challenge" classname="ui/auth/register.spec.ts" time="6.032">
+<testcase name="Protected routes › redirects /price/LTC to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="7.896">
 </testcase>
 </testsuite>
-<testsuite name="ui/navigation/not-found.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="1" failures="0" skipped="0" time="1.749" errors="0">
-<testcase name="Public fallback route › @smoke keeps the 404 shell functional" classname="ui/navigation/not-found.spec.ts" time="1.749">
+<testsuite name="ui/auth/forgot-password.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="firefox" tests="3" failures="1" skipped="0" time="95.458" errors="0">
+<testcase name="Forgot Password › @smoke is reachable from login and can navigate back" classname="ui/auth/forgot-password.spec.ts" time="18.083">
+</testcase>
+<testcase name="Forgot Password › enables reset initiation only after a valid email is entered" classname="ui/auth/forgot-password.spec.ts" time="60.386">
+<failure message="forgot-password.spec.ts:18:7 enables reset initiation only after a valid email is entered" type="FAILURE">
+<![CDATA[  [firefox] › ui/auth/forgot-password.spec.ts:18:7 › Forgot Password › enables reset initiation only after a valid email is entered 
+
+    Test timeout of 60000ms exceeded while setting up "page".
+
+    Error: browserContext.newPage: Test timeout of 60000ms exceeded.
+]]>
+</failure>
+</testcase>
+<testcase name="Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge" classname="ui/auth/forgot-password.spec.ts" time="16.989">
 </testcase>
 </testsuite>
-<testsuite name="ui/navigation/protected-routes.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="firefox" tests="4" failures="0" skipped="0" time="7.914" errors="0">
-<testcase name="Protected routes › redirects / to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="1.823">
+<testsuite name="ui/auth/login.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="firefox" tests="3" failures="0" skipped="0" time="45.966" errors="0">
+<testcase name="Login › @smoke exposes the public sign-in shell" classname="ui/auth/login.spec.ts" time="15.378">
 </testcase>
-<testcase name="Protected routes › redirects /explore to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="2.138">
+<testcase name="Login › enables submission only after the required credentials are provided" classname="ui/auth/login.spec.ts" time="11.117">
 </testcase>
-<testcase name="Protected routes › redirects /wallet to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="1.96">
-</testcase>
-<testcase name="Protected routes › redirects /price/LTC to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="1.993">
+<testcase name="Login › @smoke blocks login behind the CAPTCHA challenge" classname="ui/auth/login.spec.ts" time="19.471">
 </testcase>
 </testsuite>
-<testsuite name="ui/auth/forgot-password.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="3" failures="3" skipped="0" time="0.012" errors="0">
-<testcase name="Forgot Password › @smoke is reachable from login and can navigate back" classname="ui/auth/forgot-password.spec.ts" time="0.004">
+<testsuite name="ui/auth/register.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="firefox" tests="3" failures="0" skipped="0" time="55.782" errors="0">
+<testcase name="Registration › @smoke shows the first-step registration form and return path to login" classname="ui/auth/register.spec.ts" time="18.037">
+</testcase>
+<testcase name="Registration › keeps the Next action disabled until valid credentials and terms acceptance are present" classname="ui/auth/register.spec.ts" time="24.851">
+</testcase>
+<testcase name="Registration › @smoke gates registration continuation behind the CAPTCHA challenge" classname="ui/auth/register.spec.ts" time="12.894">
+</testcase>
+</testsuite>
+<testsuite name="ui/navigation/not-found.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="firefox" tests="1" failures="0" skipped="0" time="6.763" errors="0">
+<testcase name="Public fallback route › @smoke keeps the 404 shell functional" classname="ui/navigation/not-found.spec.ts" time="6.763">
+</testcase>
+</testsuite>
+<testsuite name="ui/navigation/protected-routes.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="firefox" tests="4" failures="0" skipped="0" time="65.834" errors="0">
+<testcase name="Protected routes › redirects / to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="6.076">
+</testcase>
+<testcase name="Protected routes › redirects /explore to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="4.854">
+</testcase>
+<testcase name="Protected routes › redirects /wallet to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="52.313">
+</testcase>
+<testcase name="Protected routes › redirects /price/LTC to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="2.591">
+</testcase>
+</testsuite>
+<testsuite name="ui/auth/forgot-password.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="webkit" tests="3" failures="3" skipped="0" time="0.023" errors="0">
+<testcase name="Forgot Password › @smoke is reachable from login and can navigate back" classname="ui/auth/forgot-password.spec.ts" time="0.008">
 <failure message="forgot-password.spec.ts:4:7 @smoke is reachable from login and can navigate back" type="FAILURE">
 <![CDATA[  [webkit] › ui/auth/forgot-password.spec.ts:4:7 › Forgot Password › @smoke is reachable from login and can navigate back 
 
@@ -110,7 +118,7 @@
 ]]>
 </failure>
 </testcase>
-<testcase name="Forgot Password › enables reset initiation only after a valid email is entered" classname="ui/auth/forgot-password.spec.ts" time="0.004">
+<testcase name="Forgot Password › enables reset initiation only after a valid email is entered" classname="ui/auth/forgot-password.spec.ts" time="0.005">
 <failure message="forgot-password.spec.ts:18:7 enables reset initiation only after a valid email is entered" type="FAILURE">
 <![CDATA[  [webkit] › ui/auth/forgot-password.spec.ts:18:7 › Forgot Password › enables reset initiation only after a valid email is entered 
 
@@ -144,7 +152,7 @@
 ]]>
 </failure>
 </testcase>
-<testcase name="Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge" classname="ui/auth/forgot-password.spec.ts" time="0.004">
+<testcase name="Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge" classname="ui/auth/forgot-password.spec.ts" time="0.01">
 <failure message="forgot-password.spec.ts:29:7 @smoke blocks password recovery behind the CAPTCHA challenge" type="FAILURE">
 <![CDATA[  [webkit] › ui/auth/forgot-password.spec.ts:29:7 › Forgot Password › @smoke blocks password recovery behind the CAPTCHA challenge 
 
@@ -179,8 +187,8 @@
 </failure>
 </testcase>
 </testsuite>
-<testsuite name="ui/auth/login.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="3" failures="3" skipped="0" time="0.015" errors="0">
-<testcase name="Login › @smoke exposes the public sign-in shell" classname="ui/auth/login.spec.ts" time="0.005">
+<testsuite name="ui/auth/login.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="webkit" tests="3" failures="3" skipped="0" time="0.029" errors="0">
+<testcase name="Login › @smoke exposes the public sign-in shell" classname="ui/auth/login.spec.ts" time="0.008">
 <failure message="login.spec.ts:4:7 @smoke exposes the public sign-in shell" type="FAILURE">
 <![CDATA[  [webkit] › ui/auth/login.spec.ts:4:7 › Login › @smoke exposes the public sign-in shell ───────────
 
@@ -214,7 +222,7 @@
 ]]>
 </failure>
 </testcase>
-<testcase name="Login › enables submission only after the required credentials are provided" classname="ui/auth/login.spec.ts" time="0.007">
+<testcase name="Login › enables submission only after the required credentials are provided" classname="ui/auth/login.spec.ts" time="0.013">
 <failure message="login.spec.ts:11:7 enables submission only after the required credentials are provided" type="FAILURE">
 <![CDATA[  [webkit] › ui/auth/login.spec.ts:11:7 › Login › enables submission only after the required credentials are provided 
 
@@ -248,7 +256,7 @@
 ]]>
 </failure>
 </testcase>
-<testcase name="Login › @smoke blocks login behind the CAPTCHA challenge" classname="ui/auth/login.spec.ts" time="0.003">
+<testcase name="Login › @smoke blocks login behind the CAPTCHA challenge" classname="ui/auth/login.spec.ts" time="0.008">
 <failure message="login.spec.ts:26:7 @smoke blocks login behind the CAPTCHA challenge" type="FAILURE">
 <![CDATA[  [webkit] › ui/auth/login.spec.ts:26:7 › Login › @smoke blocks login behind the CAPTCHA challenge ─
 
@@ -283,8 +291,8 @@
 </failure>
 </testcase>
 </testsuite>
-<testsuite name="ui/auth/register.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="3" failures="3" skipped="0" time="0.012" errors="0">
-<testcase name="Registration › @smoke shows the first-step registration form and return path to login" classname="ui/auth/register.spec.ts" time="0.004">
+<testsuite name="ui/auth/register.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="webkit" tests="3" failures="3" skipped="0" time="0.027" errors="0">
+<testcase name="Registration › @smoke shows the first-step registration form and return path to login" classname="ui/auth/register.spec.ts" time="0.009">
 <failure message="register.spec.ts:5:7 @smoke shows the first-step registration form and return path to login" type="FAILURE">
 <![CDATA[  [webkit] › ui/auth/register.spec.ts:5:7 › Registration › @smoke shows the first-step registration form and return path to login 
 
@@ -318,7 +326,7 @@
 ]]>
 </failure>
 </testcase>
-<testcase name="Registration › keeps the Next action disabled until valid credentials and terms acceptance are present" classname="ui/auth/register.spec.ts" time="0.004">
+<testcase name="Registration › keeps the Next action disabled until valid credentials and terms acceptance are present" classname="ui/auth/register.spec.ts" time="0.009">
 <failure message="register.spec.ts:16:7 keeps the Next action disabled until valid credentials and terms acceptance are present" type="FAILURE">
 <![CDATA[  [webkit] › ui/auth/register.spec.ts:16:7 › Registration › keeps the Next action disabled until valid credentials and terms acceptance are present 
 
@@ -352,7 +360,7 @@
 ]]>
 </failure>
 </testcase>
-<testcase name="Registration › @smoke gates registration continuation behind the CAPTCHA challenge" classname="ui/auth/register.spec.ts" time="0.004">
+<testcase name="Registration › @smoke gates registration continuation behind the CAPTCHA challenge" classname="ui/auth/register.spec.ts" time="0.009">
 <failure message="register.spec.ts:34:7 @smoke gates registration continuation behind the CAPTCHA challenge" type="FAILURE">
 <![CDATA[  [webkit] › ui/auth/register.spec.ts:34:7 › Registration › @smoke gates registration continuation behind the CAPTCHA challenge 
 
@@ -387,7 +395,7 @@
 </failure>
 </testcase>
 </testsuite>
-<testsuite name="ui/navigation/not-found.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="1" failures="1" skipped="0" time="0.004" errors="0">
+<testsuite name="ui/navigation/not-found.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="webkit" tests="1" failures="1" skipped="0" time="0.004" errors="0">
 <testcase name="Public fallback route › @smoke keeps the 404 shell functional" classname="ui/navigation/not-found.spec.ts" time="0.004">
 <failure message="not-found.spec.ts:4:7 @smoke keeps the 404 shell functional" type="FAILURE">
 <![CDATA[  [webkit] › ui/navigation/not-found.spec.ts:4:7 › Public fallback route › @smoke keeps the 404 shell functional 
@@ -423,8 +431,8 @@
 </failure>
 </testcase>
 </testsuite>
-<testsuite name="ui/navigation/protected-routes.spec.ts" timestamp="2026-03-26T19:10:05.507Z" hostname="webkit" tests="4" failures="4" skipped="0" time="0.026" errors="0">
-<testcase name="Protected routes › redirects / to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.004">
+<testsuite name="ui/navigation/protected-routes.spec.ts" timestamp="2026-03-29T17:57:25.960Z" hostname="webkit" tests="4" failures="4" skipped="0" time="0.03" errors="0">
+<testcase name="Protected routes › redirects / to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.007">
 <failure message="protected-routes.spec.ts:12:9 redirects / to login with the original target preserved" type="FAILURE">
 <![CDATA[  [webkit] › ui/navigation/protected-routes.spec.ts:12:9 › Protected routes › redirects / to login with the original target preserved 
 
@@ -458,7 +466,7 @@
 ]]>
 </failure>
 </testcase>
-<testcase name="Protected routes › redirects /explore to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.005">
+<testcase name="Protected routes › redirects /explore to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.009">
 <failure message="protected-routes.spec.ts:12:9 redirects /explore to login with the original target preserved" type="FAILURE">
 <![CDATA[  [webkit] › ui/navigation/protected-routes.spec.ts:12:9 › Protected routes › redirects /explore to login with the original target preserved 
 
@@ -526,7 +534,7 @@
 ]]>
 </failure>
 </testcase>
-<testcase name="Protected routes › redirects /price/LTC to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.01">
+<testcase name="Protected routes › redirects /price/LTC to login with the original target preserved" classname="ui/navigation/protected-routes.spec.ts" time="0.007">
 <failure message="protected-routes.spec.ts:12:9 redirects /price/LTC to login with the original target preserved" type="FAILURE">
 <![CDATA[  [webkit] › ui/navigation/protected-routes.spec.ts:12:9 › Protected routes › redirects /price/LTC to login with the original target preserved 
 

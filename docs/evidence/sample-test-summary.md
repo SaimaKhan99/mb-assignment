@@ -25,7 +25,17 @@ Results:
 Artifacts in this folder:
 
 - `latest-junit.xml`: JUnit report generated from the final Chromium UI run
+- `screenshots-gallery.md`: markdown gallery that embeds the actual screenshots inline
 - `chromium-login.png`
+- `chromium-login-filled.png`
 - `chromium-register-captcha.png`
+- `chromium-register-enabled.png`
+- `chromium-forgot-password-filled.png`
+- `chromium-wallet-redirect.png`
+- `chromium-404.png`
 - `firefox-forgot-password-captcha.png`
 - `firefox-404.png`
+
+Additional Chromium screenshots were captured on March 29, 2026 via:
+
+- `npm run evidence:capture`

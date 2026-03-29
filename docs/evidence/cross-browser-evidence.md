@@ -9,6 +9,8 @@ Executed locally:
   Result: 14 UI tests passed in 43.5s
   Report reference: `latest-junit.xml`
   Screenshots: `chromium-login.png`, `chromium-register-captcha.png`
+  Additional screenshots captured on March 29, 2026 via `npm run evidence:capture`:
+  `chromium-login-filled.png`, `chromium-register-enabled.png`, `chromium-forgot-password-filled.png`, `chromium-wallet-redirect.png`, `chromium-404.png`
 
 - Firefox
   Command: `npm run test:ui:smoke -- --project=firefox`
